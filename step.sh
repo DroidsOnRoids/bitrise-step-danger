@@ -2,6 +2,12 @@
 
 echo "This is the value specified for the input 'example_step_input': ${example_step_input}"
 
+brew install swiftlint
+gem install bundler
+
+bundle install
+bundle exec danger
+
 #
 # --- Export Environment Variables for other Steps:
 # You can export Environment Variables for other Steps with
